@@ -1,4 +1,5 @@
 
+
 .body{
     display: flex;
   flex-direction: column;
@@ -7,9 +8,9 @@
 
 .nav{
   
-  list-style: none; /* Liste işaretlerini kaldır */
-  margin: 0; /* Boşlukları sıfırla */
-  padding: 0; /* Kenar boşluklarını sıfırla */
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
   border-bottom: 1px solid white;
   display: inline-block;
   position: relative;
@@ -24,7 +25,7 @@
     text-align: left;
     text-decoration: none;
     font-size: 17px;
-    padding: 14px 150px;
+    
     border-radius: 30px;
     overflow: hidden;
 
@@ -33,19 +34,19 @@
 
 
 .nav-center-a:hover{
-    color: #fff; /* linkin üzerine gelindiğindeki rengi */
-    background-color: white; /* linkin üzerine gelindiğindeki arka plan rengi */
+    color: #fff; 
+    background-color: white; 
 }
 
 .nav-center-a:active{
-    color: wheat; /* link tıklandığında rengi */
-  background-color: #ffffff; /* link tıklandığında arka plan rengi */
+    color: wheat; 
+  background-color: #ffffff; 
 
 }
 
 .nav-right{
     float: right;
-    padding: 14px 150px;
+    
     display: block;
     color: #ffffff;
     text-align: center;
@@ -56,8 +57,8 @@
     display: block;
     color: #ffffff;
     font-size: 17px;
-    text-align: center; /* Yatayda hizala */
-  padding: 14px 16px; /* Kenar boşluklarını belirle */
+    text-align: center;
+  
   text-decoration: none;
   
 }
@@ -73,7 +74,7 @@
 }
 
 .b-left{
-    height: 280px;
+    height: 50%;
     
   box-sizing: border-box;
   width: 30%;
@@ -81,7 +82,7 @@
   background-color: black;
   color: white;
   border-radius: 30px;
-  margin: 150px;
+  margin: 10%;
 }
 
 .b-up{
@@ -96,14 +97,14 @@
 }
 
 .b-right{
-  height: 280px;   
+  height: 50%;   
   box-sizing: border-box;
   width: 30%;
   float: left;
   background-color: black;
   color: white;
   border-radius: 30px;
-  margin: 150px;
+  margin: 10%;
 
 }
 
@@ -118,8 +119,8 @@
 }
 
 
-.bottom{ /* İstediğiniz yüksekliği belirleyin */
-    background-color: transparent; /* İstediğiniz arkaplan rengini belirleyin */
+.bottom{ 
+    background-color: transparent; 
     color:white;
     display: flex;
     flex-direction: column;
@@ -133,18 +134,18 @@
 .f{
    background-color: black;
    display: flex;
-   margin: 150px;
+   margin: 10%;
    border: 2px white;
+   width: auto;
 
 }
 
 .fbox{ 
     flex-basis: 0;
     flex-grow: 1;
-    height: 200px;
+    height: auto;
     margin-right: 10px;
     background-color: black;
-    padding: 10px;
     border: 2px white;
 
 }
@@ -164,7 +165,7 @@
 .sbox{
     flex-basis: 0;
     flex-grow: 1;
-    height: 250px;
+    height: auto;
     margin-right: 10px;
     background-color:aquamarine;
     border-radius: 10px;
@@ -178,7 +179,7 @@
 .fobox{
     flex-basis: 0;
     flex-grow: 1;
-    height: 250px;
+    height: auto;
     margin-right: 10px;
     background-color:cornflowerblue;
     border-radius: 10px;
@@ -202,3 +203,4 @@
     right: 40px;
 
 }
+
