@@ -1,0 +1,204 @@
+
+.body{
+    display: flex;
+  flex-direction: column;
+
+}
+
+.nav{
+  
+  list-style: none; /* Liste işaretlerini kaldır */
+  margin: 0; /* Boşlukları sıfırla */
+  padding: 0; /* Kenar boşluklarını sıfırla */
+  border-bottom: 1px solid white;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+
+.nav-left{
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+
+
+.nav-center-a:hover{
+    color: #fff; /* linkin üzerine gelindiğindeki rengi */
+    background-color: white; /* linkin üzerine gelindiğindeki arka plan rengi */
+}
+
+.nav-center-a:active{
+    color: wheat; /* link tıklandığında rengi */
+  background-color: #ffffff; /* link tıklandığında arka plan rengi */
+
+}
+
+.nav-right{
+    float: right;
+    
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav-center{
+    float: left;
+    display: block;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center; /* Yatayda hizala */
+  
+  text-decoration: none;
+  
+}
+
+.i{
+    color:white;
+}
+
+.b{
+    width: 100%;
+    
+
+}
+
+.b-left{
+    height: 50%;
+    
+  box-sizing: border-box;
+  width: 30%;
+  float: left;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin: 10%;
+}
+
+.b-up{
+    border-bottom: 1px solid white;
+
+
+}
+
+.b-down{
+    font-size: small;
+
+}
+
+.b-right{
+  height: 50%;   
+  box-sizing: border-box;
+  width: 30%;
+  float: left;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin: 10%;
+
+}
+
+.container{
+    width: auto;
+    padding: 10px;
+    border: 2px white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+}
+
+
+.bottom{ /* İstediğiniz yüksekliği belirleyin */
+    background-color: transparent; /* İstediğiniz arkaplan rengini belirleyin */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+}
+
+
+.f{
+   background-color: black;
+   display: flex;
+   margin: 10%;
+   border: 2px white;
+   width: auto;
+
+}
+
+.fbox{ 
+    flex-basis: 0;
+    flex-grow: 1;
+    height: auto;
+    margin-right: 10px;
+    background-color: black;
+    border: 2px white;
+
+}
+
+
+.button{
+    background-color: black;
+    color: white;
+    border: 2px solid #e7e7e7;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 16px;
+  
+}
+
+.sbox{
+    flex-basis: 0;
+    flex-grow: 1;
+    height: auto;
+    margin-right: 10px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.fobox{
+    flex-basis: 0;
+    flex-grow: 1;
+    height: auto;
+    margin-right: 10px;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.photo{
+    border-radius: 20px;
+    background-color: black;
+
+}
+
+#a1{
+    position: relative;
+    right: 20px;
+}
+
+#a2{
+    position: relative;
+    right: 40px;
+
+}
